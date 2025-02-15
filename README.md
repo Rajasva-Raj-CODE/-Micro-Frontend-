@@ -34,9 +34,9 @@ This project showcases a micro frontend architecture using Webpack 5's Module Fe
 - Consistent UI/UX across apps
 - Scalable architecture
  
+### Project Structure
 
- ### Project Structure
-
+```plaintext
 micro-frontend-project/
 │── chat/
 │   ├── node_modules/
@@ -73,3 +73,4 @@ micro-frontend-project/
 │   ├── package-lock.json
 │   ├── package.json
 │   ├── webpack.config.js
+```
