@@ -15,13 +15,17 @@ This project showcases a micro frontend architecture using Webpack 5's Module Fe
 - **Email App** (Port 3002): Email micro frontend
 
 ### Dependencies
-React 19 (react, react-dom)
-Webpack & Babel (webpack, webpack-cli, webpack-dev-server, babel-loader,
--**npm i -D @babel/core @babel/preset-react babel-loader html-webpack-plugin webpack**
--**npm i -D webpack-cli webpack-dev-server**
- Webpack 5 with Module Federation
- @babel/core, @babel/preset-react)
-HTML Plugin (html-webpack-plugin)
+
+- React 19 (`react`, `react-dom`)  
+- Webpack & Babel:  
+  - `webpack`, `webpack-cli`, `webpack-dev-server`, `babel-loader`  
+  - Install with:  
+    - **`npm i -D @babel/core @babel/preset-react babel-loader html-webpack-plugin webpack`**  
+    - **`npm i -D webpack-cli webpack-dev-server`**  
+- Webpack 5 with Module Federation  
+- Babel: `@babel/core`, `@babel/preset-react`  
+- HTML Plugin: `html-webpack-plugin`  
+
 
 ### Key Features
 - Dynamic loading of micro frontends
