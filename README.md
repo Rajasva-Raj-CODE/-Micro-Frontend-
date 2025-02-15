@@ -33,3 +33,43 @@ This project showcases a micro frontend architecture using Webpack 5's Module Fe
 - Centralized routing
 - Consistent UI/UX across apps
 - Scalable architecture
+ 
+
+ ### Project Structure
+
+micro-frontend-project/
+│── chat/
+│   ├── node_modules/
+│   ├── public/
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── bootstrap.js
+│   │   ├── index.js
+│   ├── .gitignore
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── webpack.config.js
+│
+│── email/
+│   ├── node_modules/
+│   ├── public/
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── bootstrap.js
+│   │   ├── index.js
+│   ├── .gitignore
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── webpack.config.js
+│
+│── host/
+│   ├── node_modules/
+│   ├── public/
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── bootstrap.js
+│   │   ├── index.js
+│   ├── .gitignore
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── webpack.config.js
